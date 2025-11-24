@@ -265,7 +265,7 @@ function simpleAcidBase(pH, HCO3, PCO2) {
                 secondary = 'metabolic alkalosis';
                 addIfUnique('Metabolic Alkalosis \n');
                 addIfUnique(metabolicAlkalosisDiff);
-                secondary_chronic = 'metabolic alkalosis';
+                secondary = 'metabolic alkalosis';
             } else {
                 returnObj.secondaryExp +=
                     'HCO3 of ' +
